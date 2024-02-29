@@ -6,19 +6,29 @@ import json
 
 
 class DeserializeJson:
-    def __init__(self, filename):
-        print("let's deserialize something")
+    def __init__(self, data):
+        self.data = json.load(data)
+
+    @staticmethod
+    def create_from_file(filename):
         tempdata = open(filename, encoding="utf-8-sig")
-        self.data = json.load(tempdata)
+        return DeserializeJson(tempdata)
+
+    @staticmethod
+    def create_from_data(data):
+        return DeserializeJson(data)
 
     def somestats(self):
         example_stat = 0
         for dep in self.data:
-            if (dep.get('typ_JST') and dep.get('Województwo') and dep['typ_JST'] == 'GM' and dep['Województwo'] == 'dolnośląskie'):
+            if (dep.get('typ_JST') and
+                    dep.get('Województwo') and
+                    dep['typ_JST'] == 'GM' and
+                    dep['Województwo'] == 'dolnośląskie'):
                 example_stat += 1
-        print('liczba urzędów miejskich w województwie dolnośląskim: ' + ' ' + str(example_stat))
+        print('liczba urzędów miejskich w województwie dolnośląskim: ' + str(example_stat))
 
-    def countWoj(self):
+    def count_woj(self):
         wojewodztwa = {}
         for dep in self.data:
             if dep.get('Województwo'):
