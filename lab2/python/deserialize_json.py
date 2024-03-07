@@ -33,8 +33,12 @@ class DeserializeJson:
         for dep in self.data:
             if dep.get('Województwo'):
                 woj = dep['Województwo']
+                typ = dep['typ_JST']
                 if not wojewodztwa.get(woj):
-                    wojewodztwa[woj] = 1
+                    wojewodztwa[woj] = {}
+
+                if not wojewodztwa[woj].get(typ):
+                    wojewodztwa[woj][typ] = 1
                 else:
-                    wojewodztwa[woj] += 1
+                    wojewodztwa[woj][typ] += 1
         print(wojewodztwa)

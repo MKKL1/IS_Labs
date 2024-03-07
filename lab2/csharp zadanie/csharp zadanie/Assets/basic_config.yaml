@@ -6,7 +6,7 @@ paths:
   yaml_destination_file: 'data_ymod2.yaml'
 operations:
   - stats
-  - serialize
   - count
   - convert
+  - serialize
   - blednaoperacja

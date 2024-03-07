@@ -5,12 +5,11 @@ namespace csharp_zadanie;
 
 public class DeserializeJson
 {
-    public JsonDocument Data { get; set; }
+    public List<Urzad> RejestUrzedow { get; set; }
 
     private DeserializeJson(string data)
     {
-        JsonDocument jsonDocument = JsonDocument.Parse(data);
-        Data = jsonDocument;
+        RejestUrzedow = JsonSerializer.Deserialize<List<Urzad>>(data);
     }
 
     public static DeserializeJson create_from_file(string path)
@@ -25,20 +24,17 @@ public class DeserializeJson
 
     public void somestats()
     {
-        int example_stat = Data.RootElement
-            .EnumerateArray()
-            .Count(dep => 
-                dep.GetProperty("typ_JST").GetString() == "GM" && 
-                dep.GetProperty("Województwo").GetString() == "dolnośląskie");
-        Console.WriteLine("liczba urzędów miejskich w województwie dolnośląskim: " + example_stat);
+        int stat = RejestUrzedow.Count(urzad =>
+            urzad.TypJST == "GM" && urzad.Wojewodztwo == "dolnośląskie");
+        Console.WriteLine("liczba urzędów miejskich w województwie dolnośląskim: " + stat);
     }
     
     public void countWoj()
     {
         Dictionary<string, int> wojCount = new();
-        foreach (var dep in Data.RootElement.EnumerateArray())
+        foreach (var dep in RejestUrzedow)
         {
-            string woj = dep.GetProperty("Województwo").GetString() ?? string.Empty;
+            string woj = dep.Wojewodztwo;
             if (wojCount.ContainsKey(woj))
                 wojCount[woj]++;
             else wojCount[woj] = 0;

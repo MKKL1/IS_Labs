@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DJNyEOa/nxPQusWOy8GfbUJxCbt4bmHGC4M90hadYs8MwaoPx8Y0CY2rs6QFjL0xflGrPc8L5iGnkEbGGjluyg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\krystian\\RiderProjects\\IS_Labs new\\lab2\\csharp zadanie\\csharp zadanie\\csharp zadanie.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\krystian\\.nuget\\packages\\yamldotnet\\15.1.2\\yamldotnet.15.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

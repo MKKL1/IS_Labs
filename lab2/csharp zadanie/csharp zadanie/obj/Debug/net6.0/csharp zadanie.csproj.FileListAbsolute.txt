@@ -1,0 +1,19 @@
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\bin\Debug\net6.0\csharp zadanie.exe
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\bin\Debug\net6.0\Assets\data.json
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\bin\Debug\net6.0\csharp zadanie.deps.json
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\bin\Debug\net6.0\csharp zadanie.runtimeconfig.json
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\bin\Debug\net6.0\csharp zadanie.dll
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\bin\Debug\net6.0\csharp zadanie.pdb
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\obj\Debug\net6.0\csharp zadanie.csproj.AssemblyReference.cache
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\obj\Debug\net6.0\csharp zadanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\obj\Debug\net6.0\csharp zadanie.AssemblyInfoInputs.cache
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\obj\Debug\net6.0\csharp zadanie.AssemblyInfo.cs
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\obj\Debug\net6.0\csharp zadanie.csproj.CoreCompileInputs.cache
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\obj\Debug\net6.0\csharp zadanie.dll
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\obj\Debug\net6.0\refint\csharp zadanie.dll
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\obj\Debug\net6.0\csharp zadanie.pdb
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\obj\Debug\net6.0\csharp zadanie.genruntimeconfig.cache
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\obj\Debug\net6.0\ref\csharp zadanie.dll
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\bin\Debug\net6.0\YamlDotNet.dll
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\obj\Debug\net6.0\csharp zadanie.csproj.CopyComplete
+C:\Users\krystian\RiderProjects\IS_Labs new\lab2\csharp zadanie\csharp zadanie\bin\Debug\net6.0\Assets\basic_config.yaml
